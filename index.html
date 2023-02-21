@@ -1,0 +1,21 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>{% block title %} Главная {% endblock %} - Доска Обьявлений</title>
+  <link rel="stylesheet" type='text/css' href='{% static "bboard/style.css" %}'>
+</head>
+ <body>
+    <header>
+        <h1>Обьявления</h1>
+    </header>
+    <nav>
+    </nav>
+
+    <section>
+        {% block content %}
+        {% endblock %}
+    </section>
+ </body>
+</html>
